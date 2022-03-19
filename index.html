@@ -1,4 +1,9 @@
-<script src="html5-qrcode.min.js"></script>
+<html>
+    <head>
+        <title>QR code</title>
+    </head>
+    <body>
+        <script src="html5-qrcode.min.js"></script>
 <style>
   .result{
     background-color: green;
@@ -29,3 +34,5 @@ var html5QrcodeScanner = new Html5QrcodeScanner(
     "reader", { fps: 10, qrbox: 250 });
 html5QrcodeScanner.render(onScanSuccess, onScanError);
 </script>
+    </body>
+</html>
